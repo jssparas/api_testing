@@ -11,7 +11,7 @@ Install requirements.txt by running -
 ## in new terminal tab, run pytest to test API endpoint
 `pytest`
 
-API Endpoint tested - /emojis
+### STUB API Endpoint implemented - /emojis
 
 ## Answers to the questions
 ### 1. What concerns would you have from a testing perspective?
@@ -33,8 +33,8 @@ like checking various reponses (happy path tests), basically the behaviour which
 
 ### 4. What tools would you use?
 I have used following tools: 
-* falcon framework (https://falcon.readthedocs.io/en/stable/index.html) to implement the stub endpoint
+* `falcon` framework (https://falcon.readthedocs.io/en/stable/index.html) to implement the stub endpoint
 * Python (3.6)
-* gunicorn to run the stub on local server
-* pytest library to write api tests
-* requests library to perform REST calls on the endpoint
+* `gunicorn` to run the stub on local server
+* `pytest` library to write api tests
+* `requests` library to perform REST calls on the endpoint
